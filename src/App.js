@@ -25,7 +25,7 @@ export default function App() {
     color: randomColor()
   });
 
-  const [drone, setDrone] = useState(null);
+  const [drone, setDrone] = useState();
 
   useEffect(() => {
     const drone = new window.Scaledrone("QmRI9uobkEuSsa9I", {

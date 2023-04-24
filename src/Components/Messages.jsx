@@ -34,7 +34,7 @@ function Messages({messages, currentMember}) {
     return (
         <ul className="Messages-list">
             {messages.map((m) => renderMessage(m))}
-            <div  />
+            
         </ul>
     );
 }
